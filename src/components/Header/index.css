@@ -1,0 +1,15 @@
+.navbar {
+  background-color: #f1f5f9;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-sub-container {
+  width: 85%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo-image {
+  width: 150px;
+}

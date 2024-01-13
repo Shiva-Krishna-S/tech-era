@@ -1,0 +1,98 @@
+.success-view-container {
+  display: flex;
+  justify-content: center;
+}
+
+.content-container {
+  width: 85%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.courses-title {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.courses-list-container {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.course-item {
+  list-style-type: none;
+  width: 200px;
+  margin-bottom: 40px;
+}
+
+.course-item-container {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.course-image {
+  width: 70px;
+}
+
+.course-name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 21px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.loader {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 50%;
+  margin-bottom: 25px;
+}
+
+.failure-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.failure-message {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.failure-button {
+  background-color: #4656a1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 20px 10px 20px;
+  width: 90px;
+  margin: 20px;
+}
